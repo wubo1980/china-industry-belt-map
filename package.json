@@ -6,21 +6,38 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "test": "vitest run",
+    "check": "npm run lint && npm run test && npm run build"
   },
   "dependencies": {
+    "@svg-maps/china": "^2.0.0",
+    "@svg-maps/taiwan": "^2.0.0",
+    "@vercel/analytics": "^1.5.0",
+    "china-map-geojson": "^1.0.4",
+    "chinese-global-compliant-geodata": "^1.0.0",
+    "clsx": "^2.1.1",
+    "d3-geo": "^3.1.1",
+    "echarts": "^5.6.0",
+    "lucide-react": "^0.539.0",
     "next": "16.2.7",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^5.0.4",
     "eslint": "^9",
     "eslint-config-next": "16.2.7",
+    "jsdom": "^26.1.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^3.2.4"
   }
 }
