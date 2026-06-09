@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     "manufacturing clusters in China",
     "sourcing regions in China",
   ],
+  verification: {
+    google: "N21K5VoxWUyIIwGf5NZjvhvU2Ty_JC2EoVhMWPL-iro",
+  },
   robots: {
     index: true,
     follow: true,
