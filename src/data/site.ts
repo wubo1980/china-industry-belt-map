@@ -1,7 +1,7 @@
 import type { IndustrySlug, NavItem, SisterSite } from "@/src/types/content";
 
 export const siteUrl = "https://china-industry-belt-map.vercel.app";
-export const siteName = "China Industry Belt Map";
+export const siteName = "China Industry Belt Map: Manufacturing & Supply Chain";
 
 export const navigationItems: NavItem[] = [
   { label: "Map", href: "/" },
