@@ -17,7 +17,9 @@ export type IndustrySlug =
 export type BlogSlug =
   | "china-inland-manufacturing-shift-2026"
   | "how-to-visit-yiwu-market-guide"
-  | "top-10-sourcing-mistakes-china";
+  | "top-10-sourcing-mistakes-china"
+  | "plan-10-day-factory-tour-china"
+  | "china-factory-vetting-by-region";
 
 export interface StatItem {
   label: string;
@@ -109,6 +111,8 @@ export interface IndustryEntry {
 export interface BlogSection {
   heading: string;
   paragraphs: string[];
+  imageUrl?: string;
+  imageAlt?: string;
 }
 
 export interface BlogPostEntry {

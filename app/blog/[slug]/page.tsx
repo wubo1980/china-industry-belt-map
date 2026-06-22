@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 
 import { RelatedLinks } from "@/src/components/content/RelatedLinks";
@@ -80,6 +81,17 @@ export default async function BlogPostPage({
                 <h2 className="font-serif text-3xl font-semibold text-zinc-950">
                   {section.heading}
                 </h2>
+                {section.imageUrl && section.imageAlt && (
+                  <div className="overflow-hidden rounded-2xl">
+                    <Image
+                      src={section.imageUrl}
+                      alt={section.imageAlt}
+                      width={800}
+                      height={450}
+                      className="h-auto w-full object-cover"
+                    />
+                  </div>
+                )}
                 <div className="space-y-4 text-sm leading-8 text-zinc-600">
                   {section.paragraphs.map((paragraph) => (
                     <p key={paragraph}>{paragraph}</p>
