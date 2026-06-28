@@ -19,7 +19,9 @@ export type BlogSlug =
   | "how-to-visit-yiwu-market-guide"
   | "top-10-sourcing-mistakes-china"
   | "plan-10-day-factory-tour-china"
-  | "china-factory-vetting-by-region";
+  | "china-factory-vetting-by-region"
+  | "canton-fair-autumn-2026-buyer-preparation-guide"
+  | "quality-control-when-sourcing-from-china";
 
 export interface StatItem {
   label: string;

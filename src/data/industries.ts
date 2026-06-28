@@ -107,7 +107,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
       "central-china",
       "sichuan-chongqing",
     ],
-    relatedBlogSlugs: ["china-inland-manufacturing-shift-2026", "top-10-sourcing-mistakes-china"],
+    relatedBlogSlugs: ["china-inland-manufacturing-shift-2026", "top-10-sourcing-mistakes-china", "quality-control-when-sourcing-from-china"],
     sources: [
       "General Administration of Customs of China",
       "Municipal industry reports",
@@ -189,7 +189,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
       },
     ],
     relatedRegionSlugs: ["pearl-river-delta", "yangtze-river-delta", "fujian-coast"],
-    relatedBlogSlugs: ["how-to-visit-yiwu-market-guide"],
+    relatedBlogSlugs: ["how-to-visit-yiwu-market-guide", "canton-fair-autumn-2026-buyer-preparation-guide"],
     sources: ["China customs trade summaries", "Shanghai and Guangdong textile fair materials"],
   },
   "auto-machinery": {
@@ -281,7 +281,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
       "sichuan-chongqing",
       "beijing-tianjin-hebei",
     ],
-    relatedBlogSlugs: ["china-inland-manufacturing-shift-2026"],
+    relatedBlogSlugs: ["china-inland-manufacturing-shift-2026", "quality-control-when-sourcing-from-china"],
     sources: ["Industry fair publications", "Municipal manufacturing reports"],
   },
   "furniture-home": {
@@ -358,7 +358,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
       },
     ],
     relatedRegionSlugs: ["pearl-river-delta", "yangtze-river-delta", "central-china"],
-    relatedBlogSlugs: ["top-10-sourcing-mistakes-china"],
+    relatedBlogSlugs: ["canton-fair-autumn-2026-buyer-preparation-guide", "top-10-sourcing-mistakes-china"],
     sources: ["Furniture market operators", "Customs and regional trade sources"],
   },
   "food-agri": {
@@ -435,7 +435,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
       },
     ],
     relatedRegionSlugs: ["central-china", "fujian-coast", "pearl-river-delta"],
-    relatedBlogSlugs: ["top-10-sourcing-mistakes-china"],
+    relatedBlogSlugs: ["quality-control-when-sourcing-from-china", "top-10-sourcing-mistakes-china"],
     sources: ["Provincial agri reports", "Trade show summaries", "Customs data references"],
   },
   "raw-materials": {
@@ -527,7 +527,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
       "central-china",
       "beijing-tianjin-hebei",
     ],
-    relatedBlogSlugs: ["china-inland-manufacturing-shift-2026"],
+    relatedBlogSlugs: ["china-inland-manufacturing-shift-2026", "quality-control-when-sourcing-from-china"],
     sources: ["Customs data references", "Regional industrial reports", "Trade associations"],
   },
 };
