@@ -21,7 +21,9 @@ export type BlogSlug =
   | "plan-10-day-factory-tour-china"
   | "china-factory-vetting-by-region"
   | "canton-fair-autumn-2026-buyer-preparation-guide"
-  | "quality-control-when-sourcing-from-china";
+  | "quality-control-when-sourcing-from-china"
+  | "uflpa-compliance-china-sourcing-2026"
+  | "sourcing-chengdu-chongqing-guide";
 
 export interface StatItem {
   label: string;
