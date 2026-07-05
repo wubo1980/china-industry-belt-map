@@ -20,7 +20,7 @@ export const blogPosts: BlogPostEntry[] = [
         paragraphs: [
           "The single biggest mistake first-time China buyers make is visiting only one city. A Shenzhen-only trip tells you how fast prototyping works, but it does not tell you whether inland assembly is cheaper for your category, or whether Suzhou's engineering culture would produce better documentation on your industrial components.",
           "Experienced importers split their time across two or three manufacturing corridors, and the data supports this: buyers who compare at least two regions before committing to a supplier report 30-40% better cost alignment on first production runs, according to sourcing industry surveys published in 2026.",
-          "This article gives you three turnkey 10-day route plans, each designed around a specific buyer profile. Choose the one that fits your product category and experience level.",
+          "This article gives you three turnkey 10-day route plans, each designed around a specific buyer profile. Choose the one that fits your product category and experience level. For reference, the <a href="https://www.trade.gov/">International Trade Administration</a> or <a href="https://www.chinabriefing.com/">China Briefing industry reports</a> or <a href="https://www.alibaba.com/">Alibaba sourcing data</a> have additional data and analysis on this topic.",
         ],
         imageUrl: "/images/factory-tour-routes.png",
         imageAlt: "Three recommended China factory tour routes mapped across the Pearl River Delta, Yangtze River Delta, and Central China manufacturing corridors",

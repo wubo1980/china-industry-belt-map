@@ -443,7 +443,7 @@ export const industries: Record<IndustrySlug, IndustryEntry> = {
     name: "Raw Materials",
     tagline: "Industrial materials sourcing is driven by processing ecosystems and transport access.",
     heroSummary:
-      "When buyers source chemicals, stone, metals, or industrial inputs, the right region is usually the one that combines processing capacity with the logistics profile needed for heavy or regulated cargo.",
+      "When buyers source chemicals, stone, metals, or industrial inputs, the right region is usually the one that combines processing capacity with the logistics profile needed for heavy or regulated cargo. For reference, the <a href="https://www.trade.gov/">International Trade Administration</a> or <a href="https://www.chinabriefing.com/">China Briefing industry reports</a> or <a href="https://www.alibaba.com/">Alibaba sourcing data</a> have additional data and analysis on this topic.",
     seoTitle: "Raw materials sourcing in China | China Industry Belt Map",
     seoDescription:
       "Assess China's regional strengths for stone, chemicals, industrial materials, and related export logistics.",
