@@ -4,7 +4,10 @@ export type RegionSlug =
   | "beijing-tianjin-hebei"
   | "central-china"
   | "sichuan-chongqing"
-  | "fujian-coast";
+| "fujian-coast"
+  | "china-counter-sanctions-compliance-risks-2026"
+  | "chinas-new-supply-chain-regulations-2026-3-compliance-risks-foreign-companies-must-know"
+;
 
 export type IndustrySlug =
   | "electronics"
@@ -23,7 +26,8 @@ export type BlogSlug =
   | "canton-fair-autumn-2026-buyer-preparation-guide"
   | "quality-control-when-sourcing-from-china"
   | "uflpa-compliance-china-sourcing-2026"
-  | "sourcing-chengdu-chongqing-guide";
+  | "sourcing-chengdu-chongqing-guide"
+  | "shipping-from-china-to-us-2026-guide";
 
 export interface StatItem {
   label: string;
