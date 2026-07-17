@@ -5,8 +5,6 @@ export type RegionSlug =
   | "central-china"
   | "sichuan-chongqing"
 | "fujian-coast"
-  | "china-counter-sanctions-compliance-risks-2026"
-  | "chinas-new-supply-chain-regulations-2026-3-compliance-risks-foreign-companies-must-know"
 ;
 
 export type IndustrySlug =
@@ -27,7 +25,11 @@ export type BlogSlug =
   | "quality-control-when-sourcing-from-china"
   | "uflpa-compliance-china-sourcing-2026"
   | "sourcing-chengdu-chongqing-guide"
-  | "shipping-from-china-to-us-2026-guide";
+  | "shipping-from-china-to-us-2026-guide"
+  | "china-counter-sanctions-compliance-risks-2026"
+  | "chinas-new-supply-chain-regulations-2026-3-compliance-risks-foreign-companies-must-know"
+  | "gallium-germanium-rare-earth-china-supply-chain-trump-cards-2026"
+  | "jia-zhe-xi-tu-zhong-guo-gong-ying-lian-de-wang-pai-hai-you-na-xie";
 
 export interface StatItem {
   label: string;
