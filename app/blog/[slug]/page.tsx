@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { RelatedLinks } from "@/src/components/content/RelatedLinks";
 import { PageHero } from "@/src/components/sections/PageHero";
 import { UnifiedCta } from "@/src/components/sections/UnifiedCta";
-import { blogPosts } from "@/src/data/blog";
+import { getAllBlogSlugs } from "@/src/data/blog";
 import { getBlogPostBySlug } from "@/src/lib/content";
 import { buildPageMetadata } from "@/src/lib/metadata";
 import type { BlogSlug } from "@/src/types/content";
@@ -14,8 +14,9 @@ export const dynamicParams = false;
 /**
  * Enumerates all blog pages for static export.
  */
-export function generateStaticParams() {
-  return blogPosts.map((post) => ({ slug: post.slug }));
+export async function generateStaticParams() {
+  const slugs = await getAllBlogSlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 /**
@@ -27,7 +28,7 @@ export async function generateMetadata({
   params: Promise<{ slug: BlogSlug }>;
 }) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = await getBlogPostBySlug(slug);
 
   if (!post) {
     notFound();
@@ -49,14 +50,16 @@ export default async function BlogPostPage({
   params: Promise<{ slug: BlogSlug }>;
 }) {
   const { slug } = await params;
-  const post = getBlogPostBySlug(slug);
+  const post = await getBlogPostBySlug(slug);
 
   if (!post) {
     notFound();
   }
 
-  const relatedPosts = post.relatedPostSlugs
-    .map((relatedSlug) => getBlogPostBySlug(relatedSlug))
+  const allRelated = await Promise.all(
+    post.relatedPostSlugs.map((relatedSlug) => getBlogPostBySlug(relatedSlug))
+  );
+  const relatedPosts = allRelated
     .filter((value): value is NonNullable<typeof value> => Boolean(value))
     .map((item) => ({
       href: `/blog/${item.slug}`,

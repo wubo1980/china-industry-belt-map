@@ -14,8 +14,8 @@ export const metadata = buildPageMetadata({
 /**
  * Renders the blog index page.
  */
-export default function BlogIndexPage() {
-  const posts = getAllBlogPosts();
+export default async function BlogIndexPage() {
+  const posts = await getAllBlogPosts();
 
   return (
     <div className="report-shell py-10 sm:py-14">

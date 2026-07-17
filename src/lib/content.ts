@@ -1,4 +1,7 @@
-import { blogPosts } from "@/src/data/blog";
+import {
+  getAllBlogPosts as getAllBlogPostsFromData,
+  getBlogPostBySlug as getBlogPostBySlugFromData,
+} from "@/src/data/blog";
 import { industries, industrySlugs } from "@/src/data/industries";
 import { regionSlugs, regions } from "@/src/data/regions";
 import type {
@@ -41,13 +44,15 @@ export function getIndustryBySlug(slug: IndustrySlug): IndustryEntry | undefined
 /**
  * Returns all blog posts in display order.
  */
-export function getAllBlogPosts(): BlogPostEntry[] {
-  return blogPosts;
+export async function getAllBlogPosts(): Promise<BlogPostEntry[]> {
+  return getAllBlogPostsFromData();
 }
 
 /**
  * Returns a single blog post entry by slug.
  */
-export function getBlogPostBySlug(slug: BlogSlug): BlogPostEntry | undefined {
-  return blogPosts.find((post) => post.slug === slug);
+export async function getBlogPostBySlug(
+  slug: BlogSlug
+): Promise<BlogPostEntry | undefined> {
+  return getBlogPostBySlugFromData(slug);
 }

@@ -5,7 +5,7 @@ import { SourceBadgeList } from "@/src/components/content/SourceBadgeList";
 import { PageHero } from "@/src/components/sections/PageHero";
 import { UnifiedCta } from "@/src/components/sections/UnifiedCta";
 import { DataTable } from "@/src/components/tables/DataTable";
-import { blogPosts } from "@/src/data/blog";
+import { getAllBlogPosts } from "@/src/data/blog";
 import { industrySlugs } from "@/src/data/industries";
 import { regions } from "@/src/data/regions";
 import { getIndustryBySlug } from "@/src/lib/content";
@@ -64,8 +64,9 @@ export default async function IndustryPage({
     description: regions[slug].tagline,
   }));
 
+  const posts = await getAllBlogPosts();
   const relatedArticles = industry.relatedBlogSlugs
-    .map((slug) => blogPosts.find((post) => post.slug === slug))
+    .map((slug) => posts.find((post) => post.slug === slug))
     .filter((value): value is NonNullable<typeof value> => Boolean(value))
     .map((post) => ({
       href: `/blog/${post.slug}`,

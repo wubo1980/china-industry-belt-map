@@ -1,0 +1,66 @@
+{
+  "slug": "china-factory-vetting-by-region",
+  "title": "China Factory Vetting by Region: What to Check Before You Commit",
+  "category": "Risk Control",
+  "excerpt": "A region-specific guide to vetting Chinese factories in 2026. What to check in Shenzhen versus Suzhou versus Zhengzhou before placing your first order.",
+  "publishedAt": "2026-06-22",
+  "readingTime": "8 min read",
+  "seoTitle": "China factory vetting by region | China Industry Belt Map",
+  "seoDescription": "Learn exactly what to check in Shenzhen versus Suzhou versus Zhengzhou when vetting Chinese factories in 2026 before placing your first production batch.",
+  "heroKicker": "Risk Control",
+  "sections": [
+    {
+      "heading": "Why vetting differs by region, not just by factory",
+      "paragraphs": [
+        "Two factories can have identical equipment but completely different risk profiles depending on where they are located. A supplier in Shenzhen operates inside the densest component and subcontractor ecosystem on earth. A supplier in Zhengzhou relies on longer raw material supply chains and fewer local service providers. These structural differences change what you need to verify.",
+        "General factory audit checklists are useful, but they miss the regional dimension. This article breaks vetting into three region-specific frameworks so you know exactly what to ask in each corridor."
+      ],
+      "imageUrl": "/images/factory-vetting-comparison.png",
+      "imageAlt": "Factory vetting checklist comparison across China's Pearl River Delta, Yangtze River Delta, and Central China manufacturing regions"
+    },
+    {
+      "heading": "Pearl River Delta: Focus on supplier density and trader detection",
+      "paragraphs": [
+        "The PRD's greatest strength is also its greatest vetting challenge: dense supplier networks mean many profiles on B2B platforms are traders, not factories. A 2026 guide from HSY Sourcing notes that one of the clearest signals is MOQ — a real factory in the PRD has higher MOQs because production line setup is expensive, while 'no MOQ' usually means the supplier sources from wholesale markets rather than producing anything themselves.",
+        "What to check in the PRD: demand a live video tour via WeChat or Zoom showing the claimed production line. Do not accept pre-recorded videos. Ask to see raw material storage areas, not just the finished goods floor. Request a breakdown of which production steps are done in-house versus subcontracted. Pay attention to whether the supplier can discuss technical specifications in detail rather than giving sales pitches.",
+        "If a supplier claims to manufacture electronics in Shenzhen but shows a warehouse with generic consumer goods from multiple categories, they are almost certainly a trading company."
+      ]
+    },
+    {
+      "heading": "Yangtze River Delta: Focus on process documentation and engineering depth",
+      "paragraphs": [
+        "Factories in the YRD are more likely to be genuine manufacturers with stronger process documentation, but the vetting challenge here is verification — are the documents real, and do they match actual production processes?",
+        "What to check in the YRD: request batch traceability records and QA reports from recent orders. Ask to see the specific testing equipment used for your product category. Verify that the engineering team exists (not just a sales desk) by requesting a technical discussion about tolerance ranges, material specifications, or certification pathways. In the YRD's precision machinery and automotive sectors, how a supplier handles engineering questions is often more revealing than their price quote.",
+        "A reliable YRD supplier speaks in specifications — MOQ logic, GSM ranges for textiles, structural tolerances for machinery — not just sales features. If conversations stay at the feature level, the factory relationship may not scale well."
+      ]
+    },
+    {
+      "heading": "Central and Western China: Focus on logistics and subcontracting chains",
+      "paragraphs": [
+        "Inland factories have genuine cost advantages for many categories, but their supply chains are longer and more exposed. A factory in Zhengzhou or Chengdu may rely on multiple outside vendors for raw materials, components, and specialized processes — each link in the chain adds risk.",
+        "What to check in inland regions: ask where critical inputs come from and whether key subcomponents are sourced locally or shipped from the coast. Review packaging and logistics plans early — inland factories sometimes underestimate export packaging requirements. Verify transportation timelines from factory gate to port, and include that lead time in your production schedule. Check whether the factory has experience with export documentation and customs procedures, because coastal factories handle this more routinely.",
+        "If an inland supplier provides excellent price quotes but cannot clearly describe how goods reach the port, that is a red flag worth investigating before committing."
+      ]
+    },
+    {
+      "heading": "Remote audit techniques that work in 2026",
+      "paragraphs": [
+        "Not every buyer can travel to China for pre-order vetting. Remote audits have become significantly more reliable with widely available video-call tools. Demand a live walk-through that starts at the raw material area and moves sequentially through production, assembly, QC, and packing. Pay attention to background noise and worker environment — organized workflow is visible even through a phone camera.",
+        "Cross-verify the factory's claims by ordering a small sample batch and sending it to a third-party inspection service. In 2026, third-party inspection in China is standard practice for serious buyers, with ChineseCheck and similar services offering tiered audit packages starting from basic walkthroughs to full AQL-based sampling inspections."
+      ]
+    },
+    {
+      "heading": "How to compare quotes across regions",
+      "paragraphs": [
+        "The cheapest quote is rarely the best value when the full supply chain is considered. A PRD quote that includes component access and fast sample turnaround may be cheaper in total landed cost than an inland quote that looks lower on paper but adds logistics complexity and longer lead times.",
+        "When comparing quotes from different regions, ask each supplier for a full cost breakdown that includes: unit price, tooling costs, packaging, inland transport to port, and estimated lead time. Use these data points to build a total cost comparison, not just a unit price comparison. Our article on the top 10 sourcing mistakes in China covers this exact trap in more detail.",
+        "For a deeper dive into each industry's regional strengths, visit our industry pages for electronics, auto and machinery, textile and apparel, and compare supplier landscapes across corridors."
+      ]
+    }
+  ],
+  "relatedPostSlugs": [
+    "top-10-sourcing-mistakes-china",
+    "china-inland-manufacturing-shift-2026",
+    "how-to-visit-yiwu-market-guide"
+  ]
+}
